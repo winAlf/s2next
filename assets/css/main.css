@@ -1,0 +1,98 @@
+body {
+     font-size: 78.12%;
+     min-height: 100vh;
+     background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+     background-blend-mode: multiply,multiply;
+}
+:root {
+     --midnightBlue: #04171d;
+     --sysYellow: #ffcd37;
+     --sysGrey: #ccc;
+}
+
+header.barraHorPrin {
+    background-color: var(--midnightBlue);
+    padding: 10px;
+}
+div.logoBarra img {
+    width: 200px;
+}
+a.modulos {
+    font-size: 1rem;
+    color: var(--sysGrey);
+    text-decoration: none;
+}
+a.modulos:hover {
+    color: #fff;
+}
+
+/* NAV-BAR */
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:var(--midnightBlue);
+    color:#fff;
+    text-decoration:none;
+    padding:5px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color: var(--sysYellow);
+    border-radius: 5px;
+    color:var(--midnightBlue);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+/* Section */
+section.contPrin {
+    width: 80%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+section.contPrin img {
+    width: 200px
+
+}
+
+
+/* FOTER */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 32px;
+    padding-top: 8px;
+    background-color: var(--midnightBlue);
+    border-top: 2px solid #f00;
+    color: #fff;
+    z-index:99;
+    font-size: 1rem;
+}
