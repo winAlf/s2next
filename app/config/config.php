@@ -40,6 +40,7 @@ define('ASSETS'     , URL.'assets/');
 define('IMAGES'     , ASSETS.'images/');
 define('CSS'        , ASSETS.'css/');
 define('JS'         , ASSETS.'js/');
+define('PLUGINS'    , ASSETS.'plugins/');
 /*
 
 define('FAVICON'    , ASSETS.'favicon/');

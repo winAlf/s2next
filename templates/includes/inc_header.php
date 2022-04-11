@@ -5,6 +5,11 @@
         <title><?php echo isset($d->title) ? $d->title.' - '.get_sitename() : 'Bienvenido - '.get_sitename(); ?></title>
         <!-- Estilos de boostrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- Estilos de tostr -->
+        <link href="<?php echo plugins.'toastr/toastr.min.css' ?>" rel="stylesheet">
+        <!-- Estilos de waitme -->
+        <link href="<?php echo plugins.'waitme/waitMe.min.css' ?>" rel="stylesheet">
+
         <!-- Estilos del usuario -->
         <link rel="stylesheet" href="<?php echo CSS.'main.css' ?>">
     </head>

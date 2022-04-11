@@ -10,7 +10,7 @@
      public $nombre;
      public $menuPadre;
      public $descripcion;
-     public $created;
+     public $created=now();
      public $updated;
 
      /**
@@ -83,5 +83,12 @@
               throw $e;
          }
 
+     }
+
+     public static function search($option)
+     {
+         $self = new self();
+         $self->option = $option;
+         return $self->one();
      }
  }
